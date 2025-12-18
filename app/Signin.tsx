@@ -8,8 +8,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   Dimensions,
-  SafeAreaView,
 } from "react-native";
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { getUser } from "../lib/supabase_crud";
 
 const { width } = Dimensions.get("window");

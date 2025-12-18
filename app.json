@@ -29,6 +29,24 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+<<<<<<< Updated upstream
+=======
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "65e4f41b-7b4e-41e4-bb8d-9d2bf72ad109"
+      }
+    },
+    "owner": "ahmed100th",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/65e4f41b-7b4e-41e4-bb8d-9d2bf72ad109"
+>>>>>>> Stashed changes
     }
   }
 }
