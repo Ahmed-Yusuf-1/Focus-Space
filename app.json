@@ -6,13 +6,12 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "owner": "ahmed100th",
+    "newArchEnabled": true,
     "plugins": [
-      [
-        "expo-router"
-      ],
+      ["expo-router"],
       "expo-font"
     ],
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -29,8 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-<<<<<<< Updated upstream
-=======
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/65e4f41b-7b4e-41e4-bb8d-9d2bf72ad109"
     },
     "extra": {
       "router": {
@@ -39,14 +42,6 @@
       "eas": {
         "projectId": "65e4f41b-7b4e-41e4-bb8d-9d2bf72ad109"
       }
-    },
-    "owner": "ahmed100th",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/65e4f41b-7b4e-41e4-bb8d-9d2bf72ad109"
->>>>>>> Stashed changes
     }
   }
 }
